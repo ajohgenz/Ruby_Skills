@@ -1,0 +1,37 @@
+friends = Array["Agnes", "Agatha", "Germaine", "Jack"]
+
+puts friends[0]
+*grabs first string*
+
+puts friends[-1]
+*access the array elements from the back of the array*
+
+puts friends [0,2]
+*grabs the first 2 elements in an array*
+
+friends[0] = "Stacy"
+*changes the first element at index position 0*
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+friends = Array.new 
+*tells ruby that we want to make an array, but we don't want to put any values into it yet* 
+friends[0] = "Jane" 
+*puts "Jane" as index [0]
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+friends = Array["Agnes", "Agatha", "Germaine", "Jack"]
+puts friends.length()
+*how many elements are inside the array*
+
+puts friends.include? "Agatha"
+*checks to see what elements are inside of the array, gives true/false value if the element is in the array*
+
+puts friends.reverse()
+*will reverse all the elements*
+
+puts friends.sort()
+*sorts the array alphabetically*
+
+P.S. Arrays can't have multiple data types 
