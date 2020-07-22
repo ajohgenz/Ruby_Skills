@@ -1,0 +1,14 @@
+def cube(num)
+ num*num*num 
+end 
+
+puts cube(2)
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+def cube(num)
+ num*num*num, 70 
+ 5
+ end 
+ 
+ puts cube(2)[1]
+ *accesses each individual array by its index*
