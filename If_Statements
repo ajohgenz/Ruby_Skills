@@ -1,0 +1,44 @@
+ismale = true 
+
+if ismale
+puts "you are male"
+end
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ismale = false 
+
+if ismale
+puts "you are male"
+else
+"puts you are not male
+end
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ismale = true 
+istall = true
+
+if ismale and istall
+puts "you are a tall male"
+else
+puts "you are either not male or not tall or both"
+end
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ismale = true 
+istall = true
+
+if ismale and istall
+puts "you are a tall male"
+elsif ismale and !istall
+puts "you are a short male"
+elsif "!ismale and istall
+puts "you are not male, but are tall"
+else
+puts "you are not male, and not tall"
+end
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+def max (num1, num2, num3)
+if num1 == num 2 and num1 >= num3
+ return num1
+elseif num2 >= num1 and num2 >= num3
+ return num2
+else
+ return num3 
+end
