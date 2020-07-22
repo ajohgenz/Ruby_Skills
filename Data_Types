@@ -1,0 +1,6 @@
+Name = "Huey"
+Age = 24
+Gpa = 3.2
+ismale = true
+istall = false
+flaws = nil
