@@ -1,0 +1,6 @@
+character_name = "Huey"
+character_age = "24"
+puts ("There once was a man named " + character_name)
+puts ("He was " + character_age + " years old")
+puts ("He liked the name " + character_name)
+puts ("But he didn't like being " + character_age)
