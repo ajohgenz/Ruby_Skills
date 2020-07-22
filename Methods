@@ -1,0 +1,22 @@
+def sayhi
+puts "hello user"
+end
+
+puts "top"
+sayhi
+puts "bottom"
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+def sayhi(name, age)
+*specifies that you can give the value a name"
+puts ("hello " + name + ", you are " + age.to_s)
+end 
+
+sayhi("Becky", 1738)
+*gave the value a name = "Becky"*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+def sayhi (name = "no name", age =-1)
+puts ("hello " + name +, you are " + age.to_s)
+
+sayhi 
+*This is the default version of the previous method*
