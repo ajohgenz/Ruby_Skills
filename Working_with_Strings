@@ -1,0 +1,25 @@
+phrase = "Chicken Nuggets"
+puts phrase.upcase()
+*converts phrase entirely into uppercase letters*
+
+puts phrase.downcase()
+*converts pharase entirely into lowercase letters*
+
+phrase.strip()
+*For leading and trailing strings, strings the words together*
+Ex. phrase = "       Chicken     Nuggets   "
+
+phrase.length() 
+*how many characters are inside the string*
+
+phrase.include? "Nuggets"
+*Show up as a true/false value, telling us whether the word "Nuggets" shows up in the phrase*
+
+puts phrase [0] 
+*0 = C in "Chicken Nuggets"*
+
+puts phrase [0,3]
+*0,3 = Chi in "Chicken Nuggets"*
+
+puts phrase.index(0) = "C" in "Chicken Nuggets"
+*Tell us what position a specific character is in the string starts at*
